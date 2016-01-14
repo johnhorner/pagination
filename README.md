@@ -50,7 +50,7 @@ There are special values
 to make it explicit whether the page we are on is the first page, the last page
 or somewhere in the middle.
 
-# Warnings: 
+## Warnings: 
 
 The following things will generate a warning:
 
@@ -59,7 +59,7 @@ might be both the first and the last.
 * If you ask for a page which can't exist because it's greater than the total
 possible pages.
 
-# `die_on_bad_args`:
+## `die_on_bad_args`:
 
 The only time it will (intentionally) die is if you call `new()` with  `die_on_bad_args => 1` 
 and then you call Paginate with a current_page value which 
