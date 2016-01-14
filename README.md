@@ -21,7 +21,7 @@ Example script included:
 
 which will return the following object:
 
-	$VAR1 = {
+	   $p = {
 			  'record_offset' => 80,
 			  'record_limit' => 10,
 			  'current_is_midrange' => 1,
